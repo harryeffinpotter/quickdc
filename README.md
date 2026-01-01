@@ -32,3 +32,16 @@ Tool for the **ARC key glitch**.
 
 - Windows 10/11
 - Run as Administrator
+
+## Build from Source
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+pip install pyinstaller
+
+# Build exe
+pyinstaller --onefile --windowed --name QuickDC --uac-admin quickdc.py
+```
+
+The exe will be in the `dist` folder.
