@@ -34,7 +34,7 @@ Tool for the **ARC key glitch**.
 - Run as Administrator
 
 ## Build from Source
-Note: Must be run in WINDOWS
+Note: Must be built from **WINDOWS**
 ```bash
 # Install dependencies
 pip install -r requirements.txt
